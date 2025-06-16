@@ -14,28 +14,20 @@ O desafio é criar um sistema completo que permite o envio de imagens DICOM atra
 • Versao do PHP: 8.2
 • Versao do Laravel: 11.9
 ```
-#### Clone o projeto
+#### Configure o backend
 ```
+• Clone o projeto
+• composer install
 • Configure o .env
-```
-#### Instale as dependências
-```
-• backend: composer install
-• frontend: npm install
-```
-#### Execute a migrate no backend
-```
 • php artisan key:generate
 • php artisan migrate
 • php artisan storage:link
-```
-#### Rode o serve no backend
-```
 • php artisan serve
 O backend estará disponível em http://localhost:8000
 ```
-#### Rode o serve NPM no frontend
+#### Configure o frontend
 ```
+• npm install
 • npm run dev
 O frontend estará disponível em http://localhost:3000
 ```
