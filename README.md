@@ -28,6 +28,7 @@ O backend estará disponível em http://localhost:8000
 #### Configure o frontend
 ```
 • npm install
+• Configure o .env
 • npm run dev
 O frontend estará disponível em http://localhost:3000
 ```
